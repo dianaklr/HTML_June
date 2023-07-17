@@ -1,0 +1,29 @@
+.main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.main div{
+    width: 200px;
+    height: 200px;
+    background: peachpuff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Rubik_Pixels{
+    font-family: 'Rubik Pixels', cursive;
+}
+.Sedgwick_Ave_Display{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+.Indie_Flower{
+    font-family: 'Indie Flower', cursive;
+}
+.Fjalla_One{
+    font-family: 'Fjalla One', sans-serif;
+}
+.Dancing_Script{
+    font-family: 'Dancing Script', cursive;
+}
