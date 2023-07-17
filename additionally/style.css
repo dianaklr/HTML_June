@@ -1,0 +1,23 @@
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px double;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
