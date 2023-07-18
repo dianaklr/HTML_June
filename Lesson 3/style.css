@@ -1,0 +1,57 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin: 10px;
+}
+header h4{
+    margin-bottom: 0;
+}
+header p{
+    margin-top: 0;
+}
+header div{
+    text-align: center;
+}
+.active_link{
+    color: #1c4b35;
+}
+main{
+    height: 90vh;
+    background-image: url("n.jpg");
+    background-size: cover;
+}
+section{
+    text-align: center;
+    padding-top: 30px;
+}
+
+section h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 0;
+}
+
+button{
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 3s;
+}
+button:hover{
+    transform: scale(1.1);
+    color: #4d6053;
+    transition: 1s;
+}

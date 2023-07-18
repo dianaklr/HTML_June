@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        #red{
+            width: 100vw;
+            height: 100vh;
+            background-color: #984d5d;
+        }
+        #green{
+            width: 100vw;
+            height: 100vh;
+            background-color: #66984d;
+        }
+        #yellow{
+            width: 100vw;
+            height: 100vh;
+            background-color: #988e4d;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div id="red">
+        <a href="#green">Вниз</a>
+    </div>
+    <div id="green">
+        <a href="#red">Вверх</a>
+        <a href="#yellow">Вниз</a>
+    </div>
+    <div id="yellow">
+        <a href="#green">Вверх</a>
+    </div>
+</body>
+</html>
