@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        input{
+            margin: 10px 0;
+        }
+        span{
+            color: red;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #user:focus{
+            outline: 1px solid deeppink;
+            border-radius: 4px;
+            border:none;
+            padding: 5px;
+        }
+        #user{
+            border: 3px solid plum;
+        }
+        #reset:active{
+            background-color: rgba(102, 51, 153, 0.8);
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div>
+    <form>
+
+        <label for="user">Ім'я користувача: </label>
+        <br>
+        <input type="text" name="username" id="user" placeholder="Ім'я" required> <span>*</span>
+        <br>
+
+        <label for="password">Введіть пароль: </label>
+        <br>
+        <input type="password" name="password" id="password" placeholder="qwerty123" required maxlength="3"> <span>*</span>
+        <br>
+
+        <label for="email">Введіть пошту </label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="qwerty123" required maxlength="3"> <span>*</span>
+        <br>
+
+        <label for="age">Введіть свій вік: </label>
+        <br>
+        <input type="number" name="age" id="age" placeholder="18+" min="18" max="100" required >
+        <br>
+
+        <label> Стать: <br>
+            <input type="radio" name="gender" id="female"> <label for="female"> Жіноча </label>
+            <input type="radio" name="gender" id="male"> <label for="male"> Чоловіча </label>
+        </label>
+
+        <br>
+
+        <input type="checkbox" name="newletters" id="newletters">
+        <label for="newletters">Підписка на новини</label>
+        <br>
+
+        <label> Країна
+            <select name="country">
+                <option value=""> Виберіть країну </option>
+                <option value="ua"> Україна </option>
+                <option value="usa"> США </option>
+                <option value="сa"> Канада </option>
+                <option value="eng"> Англія </option>
+            </select>
+        </label>
+        <br>
+        <label for="textarea"> Коментар:</label>
+        <br>
+        <textarea name="textarea" id="textarea" rows="4" cols="20" style="resize: none">  </textarea>
+        <br>
+
+        <input type="reset" value="Тиць" id="reset">
+        <input type="submit">
+
+    </form>
+</div>
+</body>
+</html>
