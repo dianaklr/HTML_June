@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <style>
+        /*div li{*/
+        /*    color: cornflowerblue;*/
+        /*}*/
+        /*div ul li{*/
+        /*    color: #8a3f93;*/
+        /*}*/
+        /*.list li{*/
+        /*    color: coral;*/
+        /*}*/
+
+      /*
+      тег - 1б
+      клас - 10б
+      ід - 100б
+      */
+       /*-----------------------------------------------------*/
+       /*div>ul>li{*/
+       /*     color: cornflowerblue;*/
+       /* }*/
+        /*-----------------------------------------------------*/
+        ul>li:first-letter{
+            color: crimson;
+            font-size: 30px;
+        }
+        li::after{
+            content: "!!!";
+        }
+        li{
+            list-style: none ;
+        }
+        li::before{
+            content: "";
+            display: inline-block;
+            width: 15px;
+            height: 10px;
+            background-image: url("tel.jpeg");
+            background-size: cover;
+            margin-right: 10px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="list">
+        <ul class="redList">
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum dolor.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cumque doloribus laborum molestiae molestias qui, saepe? Aspernatur at, consectetur consequatur debitis deleniti ducimus itaque magnam necessitatibus placeat soluta suscipit ut.</p>
+    </div>
+</body>
+</html>
