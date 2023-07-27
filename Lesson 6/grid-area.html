@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header{
+            grid-area: header;
+        }
+        footer{
+            grid-area: footer;
+        }
+        .left{
+            grid-area: left;
+        }
+        .center{
+            grid-area: center;
+        }
+        .right{
+            grid-area: right;
+        }
+
+    body{
+        margin: 0;
+        height: 100vh;
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "left center right"
+        "footer footer footer";
+        grid-template-columns: 2fr 6fr 2fr;
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-gap: 15px;
+    }
+        header, footer, section{
+            border: 1px solid cornflowerblue;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+   <header></header>
+        <section class="left"></section>
+        <section class="center"></section>
+        <section class="right"></section>
+    <footer></footer>
+</body>
+</html>

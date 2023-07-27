@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+header, footer{
+    width: 100vw;
+    height: 35vh;
+    background-color: #586b51;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 33.4vw;
+    height: 30vh;
+    background-color: darkcyan;
+}
+header, footer, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.5px solid;
+}
+main{
+    display: none;
+}
+
