@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.a{
+    width: 100vw;
+    height: 30vh;
+    background-color: coral;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 70vh;
+}
+.b{
+   width: 100%;
+    height: 50%;
+    background-color: #b96161;
+}
+.c{
+    width: 33.33%;
+    height: 50%;
+    background-color: #99a468;
+}
+.d{
+    width: 33.33%;
+    height: 50%;
+    background-color: #33381a;
+}
+.e{
+    width: 33.34%;
+    height: 50%;
+    background-color: #6e7a39;
+}
+.f{
+    width: 30vw;
+    height: 70vh;
+    background-color: #53b0a7;
+}
+main{
+    display: flex;
+}

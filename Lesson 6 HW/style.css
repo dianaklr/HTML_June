@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+.a{
+    width: 99vw;
+    height: 29vh;
+    background-color: #946d6d;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+}
+.b{
+    width: 69vw;
+    height: 69vh;
+    background-color: #637ba9;
+    margin: 0 0 10px 10px;
+}
+.c{
+    width:39vw ;
+    height: 69vh;
+    background-color: #366370;
+    margin: 0 10px 10px 10px;
+}

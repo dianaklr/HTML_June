@@ -1,0 +1,25 @@
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "a a a"
+    "b b c";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-gap: 2px;
+    margin: 0;
+}
+.a, .b, .c{
+    background-color: #b78080;
+    border: 1px solid;
+}

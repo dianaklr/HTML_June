@@ -1,0 +1,36 @@
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "a a a a"
+    "b b b f"
+    "c d e f";
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    margin: 0;
+}
+.a, .b, .c, .d, .e, .f{
+    background-color: #b78080;
+    border: 1px solid;
+}
